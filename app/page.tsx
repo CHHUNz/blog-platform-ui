@@ -1,13 +1,14 @@
-import Navbar from "@/component/layout/Navbar";
-import Link from "next/link";
 import React from "react";
-import LoginForm from "@/component/ui/login/LoginForm";
+import RegisterForm from "@/components/ui/auth/ResgisterForm";
 
 
 const Page = () => {
-    return(
-        <>
-        </>
+
+    return (
+        <div className="flex items-center justify-center h-screen">
+            <RegisterForm/>
+        </div>
+
     )
 }
 export default Page
