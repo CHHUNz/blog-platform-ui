@@ -1,4 +1,4 @@
-import "../../app/globals.css"
+import "../../../app/globals.css"
 import React, {useState, useRef} from "react";
 import {any} from "prop-types";
 import navbar from "@/components/layout/Navbar";

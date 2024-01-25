@@ -64,9 +64,9 @@
     margin-top: 10px;
 }
 .card .container .image{
-    width: 75px;
+    width: 100px;
     margin-right: 5px;
-    height: 75px;
+    height: auto;
 }
 .card .container .image img{
     width: 100%;

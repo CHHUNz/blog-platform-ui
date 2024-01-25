@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import {buttonVariants} from '../ui/button';
 import {HandMetal} from 'lucide-react';
-import SelectProfile from "@/components/layout/SelectProfile";
+import SelectProfile from "@/components/ui/home/SelectProfile";
 import { Button } from "@/components/ui/button"
 import {useUserStore} from "@/lib/store/store";
 import {
@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/dialog";
 import {Label} from "@/components/ui/label";
 import {Input} from "@/components/ui/input";
-import DialogCreatePost from "@/components/layout/DialogCreatePost";
+import DialogCreatePost from "@/components/ui/home/DialogCreatePost";
 const Navbar = () => {
     const {open, setOpen} = useUserStore();
     return (
