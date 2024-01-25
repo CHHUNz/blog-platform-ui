@@ -68,7 +68,7 @@ const DialogCreatePost = () => {
                                         </SelectTrigger>
                                         <SelectContent>
                                             <SelectGroup>
-                                                {/*<SelectLabel>All types</SelectLabel>*/}
+                                                <SelectLabel>All types</SelectLabel>
                                                 <SelectItem value="apple">Entertainment</SelectItem>
                                                 <SelectItem value="banana">Education</SelectItem>
                                                 <SelectItem value="blueberry">Sports</SelectItem>

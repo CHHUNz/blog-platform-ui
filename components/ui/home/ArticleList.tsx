@@ -47,7 +47,7 @@ const ArticleList = () => {
                                     <img
                                         src={p.photo}
                                         alt="Card Image"
-                                        className="w-full object-scale-down  rounded-xl"
+                                        className="w-full object-cover h-[340px] rounded-xl"
                                     />
                                 ))
                             }
